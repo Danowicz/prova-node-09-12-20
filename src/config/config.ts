@@ -4,8 +4,8 @@ dotenv.config();
 
 const SERVER_PORT = process.env.SERVER_PORT || 3000;
 const SERVER_HOSTNAME = process.env.SERVER_HOSTNAME || 'localhost';
-const API_NAME = process.env.API_NAME;
-const API_VERSION = process.env.API_VERSION;
+const API_NAME = process.env.API_NAME || 'Helpper API';
+const API_VERSION = process.env.API_VERSION || '0.0.1';
 
 const config = {
   server: {
